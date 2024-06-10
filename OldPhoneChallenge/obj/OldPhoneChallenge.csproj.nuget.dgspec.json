@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/OldPhoneChallenge.csproj": {}
+  },
+  "projects": {
+    "/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/OldPhoneChallenge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/OldPhoneChallenge.csproj",
+        "projectName": "OldPhoneChallenge",
+        "projectPath": "/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/OldPhoneChallenge.csproj",
+        "packagesPath": "/Users/sutthiphanprananpaeng/.nuget/packages/",
+        "outputPath": "/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sutthiphanprananpaeng/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

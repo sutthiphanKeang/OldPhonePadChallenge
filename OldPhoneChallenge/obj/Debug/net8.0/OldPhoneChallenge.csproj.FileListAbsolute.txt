@@ -1,0 +1,14 @@
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/bin/Debug/net8.0/OldPhoneChallenge
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/bin/Debug/net8.0/OldPhoneChallenge.deps.json
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/bin/Debug/net8.0/OldPhoneChallenge.runtimeconfig.json
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/bin/Debug/net8.0/OldPhoneChallenge.dll
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/bin/Debug/net8.0/OldPhoneChallenge.pdb
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.AssemblyInfoInputs.cache
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.AssemblyInfo.cs
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.csproj.CoreCompileInputs.cache
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.dll
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/refint/OldPhoneChallenge.dll
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.pdb
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.genruntimeconfig.cache
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/ref/OldPhoneChallenge.dll
