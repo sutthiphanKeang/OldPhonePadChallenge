@@ -18,6 +18,7 @@
 ```shell
    git clone https://github.com/sutthiphanKeang/OldPhonePadChallenge.git
    cd OldPhonePadChallenge
+   cd OldPhoneChallenge
  ```
 3. Open Project in VS Code
  >Open the project folder in Visual Studio Code.
