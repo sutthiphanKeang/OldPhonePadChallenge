@@ -31,3 +31,6 @@
 ```shell
    dotnet run
 ```
+
+## Documentation
+[Old Phone Pad Keypress to Text Conversion](https://docs.google.com/document/d/1JhDGa6zdsnPvRDwUjgP-SgpIgCQTygg9zGK9aMews1k/edit?usp=sharing)
