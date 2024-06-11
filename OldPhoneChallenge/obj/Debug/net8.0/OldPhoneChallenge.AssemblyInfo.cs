@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OldPhoneChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d713492af13993d57ab4f6179672789ab16ad324")]
 [assembly: System.Reflection.AssemblyProductAttribute("OldPhoneChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OldPhoneChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@
 /Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.pdb
 /Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.genruntimeconfig.cache
 /Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/ref/OldPhoneChallenge.dll
+/Users/sutthiphanprananpaeng/My Works/Iron Software/OldPhoneChallenge/obj/Debug/net8.0/OldPhoneChallenge.sourcelink.json

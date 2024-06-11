@@ -2,22 +2,22 @@
 
 public class OldPhone
 {
+    private static readonly Dictionary<char, string[]> keyMappings = new Dictionary<char, string[]>()
+    {
+        { '1', new[] { "&", "'", "(" } },
+        { '2', new[] { "A", "B", "C" } },
+        { '3', new[] { "D", "E", "F" } },
+        { '4', new[] { "G", "H", "I" } },
+        { '5', new[] { "J", "K", "L" } },
+        { '6', new[] { "M", "N", "O" } },
+        { '7', new[] { "P", "Q", "R", "S" } },
+        { '8', new[] { "T", "U", "V" } },
+        { '9', new[] { "W", "X", "Y", "Z" } },
+        { '0', new[] { " " } }
+    };
+
     public static string OldPhonePad(string input)
     {
-        Dictionary<char, string[]> keyMappings = new Dictionary<char, string[]>()
-        {
-            { '1', new[] { "&", "'", "(" } },
-            { '2', new[] { "A", "B", "C" } },
-            { '3', new[] { "D", "E", "F" } },
-            { '4', new[] { "G", "H", "I" } },
-            { '5', new[] { "J", "K", "L" } },
-            { '6', new[] { "M", "N", "O" } },
-            { '7', new[] { "P", "Q", "R", "S" } },
-            { '8', new[] { "T", "U", "V" } },
-            { '9', new[] { "W", "X", "Y", "Z" } },
-            { '0', new[] { " " } },
-        };
-
         StringBuilder result = new StringBuilder();
         char previousChar = '\0';
         int count = 0;
@@ -27,19 +27,13 @@ public class OldPhone
             if (c == '#') break;
             if (c == '*')
             {
-                previousChar = '\0';
-                count = 0;
+                ResetPreviousChar(ref previousChar, ref count);
                 continue;
             }
 
             if (c == ' ')
             {
-                if (previousChar != '\0')
-                {
-                    result.Append(keyMappings[previousChar][(count - 1) % keyMappings[previousChar].Length]);
-                    previousChar = '\0';
-                    count = 0;
-                }
+                AppendPreviousChar(result, ref previousChar, ref count);
                 continue;
             }
 
@@ -51,22 +45,30 @@ public class OldPhone
                 }
                 else
                 {
-                    if (previousChar != '\0')
-                    {
-                        result.Append(keyMappings[previousChar][(count - 1) % keyMappings[previousChar].Length]);
-                    }
+                    AppendPreviousChar(result, ref previousChar, ref count);
                     previousChar = c;
                     count = 1;
                 }
             }
         }
 
+        AppendPreviousChar(result, ref previousChar, ref count);
+        return result.ToString();
+    }
+
+    private static void AppendPreviousChar(StringBuilder result, ref char previousChar, ref int count)
+    {
         if (previousChar != '\0')
         {
             result.Append(keyMappings[previousChar][(count - 1) % keyMappings[previousChar].Length]);
         }
+        ResetPreviousChar(ref previousChar, ref count);
+    }
 
-        return result.ToString();
+    private static void ResetPreviousChar(ref char previousChar, ref int count)
+    {
+        previousChar = '\0';
+        count = 0;
     }
 }
 
